@@ -21,4 +21,4 @@ with sync_playwright() as playwright:
     )
 
     # Добавляем паузу для наглядности
-    page.wait_for_timeout(5000)
+    #page.wait_for_timeout(5000)

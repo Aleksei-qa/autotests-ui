@@ -14,4 +14,4 @@ with sync_playwright() as playwright:
 
     page.keyboard.press('ControlOrMeta+A')
 
-    page.wait_for_timeout(2000)
+    #page.wait_for_timeout(2000)
